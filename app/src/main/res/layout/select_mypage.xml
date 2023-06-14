@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="90dp"
+        android:layout_height="75dp"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <ToggleButton
+        android:id="@+id/move_profile"
+        android:layout_width="133dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_radius"
+        android:textColor="#ffffff"
+        android:textOff="프로필관리"
+        android:textOn="프로필관리"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="242dp"
+        android:layout_height="44dp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <ToggleButton
+        android:id="@+id/move_carProfile"
+        android:layout_width="133dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_radius"
+        android:textColor="#ffffff"
+        android:textOff="차량관리"
+        android:textOn="차량관리"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="홍길동"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="245dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="공지사항"
+        android:textColor="#808080"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="246dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="고객센터"
+        android:textColor="#808080"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="245dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="이벤트"
+        android:textColor="#808080"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#5734E6"
+        android:gravity="center"
+        android:text="상세정보"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="56dp"
+        android:layout_height="60dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0"
+         />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="347dp"
+        android:layout_height="350dp"
+        android:background="@color/white"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="347dp"
+        android:layout_height="3px"
+        android:background="#9C9BA1"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="93dp"
+        android:layout_height="87dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/man" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="김세라 | 여 | Lv2"
+        android:textColor="#5734E6"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="241dp"
+        android:layout_height="46dp"
+        android:progressTint="#FFFF00"
+        android:rating="5"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(21)"
+        android:textColor="#9C9BA1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="차종"
+        android:textColor="#5734E6"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.731" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Point"
+        android:textColor="#5734E6"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.731" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="완료 횟수"
+        android:textColor="#5734E6"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.732" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:text="K5"
+        android:textColor="#5734E6"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.885" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3,210P"
+        android:gravity="center"
+        android:textColor="#5734E6"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21"
+        android:textColor="#5734E6"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:backgroundTint="@color/white"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.222" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="63dp"
+        android:layout_height="52dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.158"
+
+         />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="17dp"
+        android:layout_height="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.486"
+         />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="22dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.16"
+         />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="신구대학교 정문"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="서울시 강북구"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="03.29 (금) 16:50"
+        android:textColor="#9C9BA1"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.509" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="김세라 | 여 | Lv2"
+        android:textColor="#9C9BA1"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.509" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="500dp"
+        android:layout_height="3px"
+        android:background="#9C9BA1"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="등록일 03.28 (목) 09:45 | 36 km"
+        android:textColor="#9C9BA1"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#신구대정문 #카풀 #강북구"
+        android:textSize="10dp"
+        android:textColor="#9C9BA1"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.748" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17시까지 오시면 됩니다. 동선 비슷하신 분 연락 주세요"
+        android:textColor="#9C9BA1"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.845" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="매칭전"
+        android:textColor="#5734E6"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.738" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₩ 12,000 원"
+        android:textColor="#FCA20B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.968" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="33dp"
+        android:layout_height="36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.0"
+         />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#5734E6"
+        android:text="태워주세요"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.942" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
